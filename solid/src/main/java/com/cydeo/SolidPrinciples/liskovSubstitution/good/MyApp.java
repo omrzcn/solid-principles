@@ -1,4 +1,6 @@
-package com.cydeo.SolidPrinciples.liskovSubstituon.bad;
+package com.cydeo.SolidPrinciples.liskovSubstitution.good;
+
+import java.util.List;
 
 public class MyApp {
 
@@ -8,12 +10,12 @@ public class MyApp {
         rectangle.setHeight(3);
         rectangle.setWidth(5);
 
-        Rectangle square = new Square();
-        square.setHeight(4);
+        Square square = new Square();
+        square.setSide(4);
 
-        List<Rectangle> rectangles = Arrays.asList(rectangle, square);
-
-        changeHeightAndWidth(rectangles);
+//        List<Rectangle> rectangles = Arrays.asList(rectangle, square);
+//
+//        changeHeightAndWidth(rectangles);
 
     }
 

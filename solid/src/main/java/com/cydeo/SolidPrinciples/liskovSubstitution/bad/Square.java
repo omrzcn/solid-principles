@@ -1,4 +1,4 @@
-package com.cydeo.SolidPrinciples.liskovSubstituon.bad;
+package com.cydeo.SolidPrinciples.liskovSubstitution.bad;
 
 public class Square extends Rectangle {
 

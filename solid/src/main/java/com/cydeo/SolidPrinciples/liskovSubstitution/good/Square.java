@@ -1,4 +1,4 @@
-package com.cydeo.SolidPrinciples.liskovSubstituon.good;
+package com.cydeo.SolidPrinciples.liskovSubstitution.good;
 
 public class Square implements Shape {
 
